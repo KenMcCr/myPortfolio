@@ -13,7 +13,8 @@ function Contact() {
             <div className='hero-container hero-contact'>
                 <Hero />
             </div>
-            <div>
+            <div className='parent-contact'>
+                <h2>Let's Connect</h2>
                 <form className="contact-form">
                     <label for="fname">First Name:</label>
                     <input type="text" id="fname" name="fname" required></input>

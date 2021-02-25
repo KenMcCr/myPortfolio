@@ -15,6 +15,27 @@
   font-size: 3rem;
 }
 
+.aboutMe{
+  border: 5px solid grey;
+  border-radius: 20px;
+}
+.aboutMe h3{
+  text-align: center;
+}
+
+.parent-contact{
+  text-align: center;
+}
+
+
+
+h2{
+  font-size: 100px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 10px;
+
+}
+
 .contact {
   background-image: url('../src/media/network.jpg');
   background-position: center;
@@ -26,9 +47,11 @@
 
 
  .contact-form{
+   
    padding: 75px;
    display: flex;
    flex-direction: column;
+   text-align: left;
 
  }
 
