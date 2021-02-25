@@ -12,6 +12,9 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
+                    <Link to='/' classname="navbar-home"> Kenneth McCray JR
+                    </Link>
+
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>

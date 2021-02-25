@@ -16,15 +16,29 @@
 }
 
 .aboutMe{
-  border: 5px solid grey;
-  border-radius: 20px;
+  margin-bottom: 50px;
+  margin-left: 110px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  width: 33%;
 }
 .aboutMe h3{
   text-align: center;
 }
+.home-picture{
+  display: flex;
+  flex-flow: row;
+  margin-top: 50px;
+  margin-left:  50px; 
+  margin-bottom: 100px;
+}
 
 .parent-contact{
   text-align: center;
+}
+
+.profile-picture {
+  border-radius: 80px;
 }
 
 

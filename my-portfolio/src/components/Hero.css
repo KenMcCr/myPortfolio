@@ -1,6 +1,6 @@
 
 .hero-container {
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
 }
 
 .hero-home {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.3) 100%), url('/src/media/HeadShot.JPG')
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.3) 100%), url('/src/media/fun.gif')
     center center/cover no-repeat
 };
 
