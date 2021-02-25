@@ -13,6 +13,7 @@ import VotersRights from '../media/VotersRights.png';
 
 
 
+
 function Cards() {
     return (
         <div className="cards">
@@ -39,7 +40,7 @@ function Cards() {
                     <Carditem
                         src={VotersRights} text='' path='https://github.com/R2H-Hack-a-Thon-group-2/Voter-Rights.git' label='Voters Rights' />
                     <Carditem
-                        src={Ecommerce} text='' path='/https://github.com/KenMcCr/E-Commerce.git' label='Gateway' />
+                        src={Ecommerce} text='' path='https://github.com/KenMcCr/E-Commerce.git' label='Gateway' />
 
                 </ul>
             </div>

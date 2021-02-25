@@ -16,7 +16,8 @@
   
   .cards__items {
     margin-bottom: 24px;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     width: 100%;
   }
   
@@ -85,6 +86,11 @@
   
   .cards__item__info {
     padding: 20px 30px 30px;
+  }
+
+  .cards__item__pic-wrap data-category{
+    font-weight: bold;
+    font-size: 100px;
   }
   
   
