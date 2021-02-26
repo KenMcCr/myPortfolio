@@ -11,6 +11,12 @@
     z-index: 999;
    
   }
+  .tohome {
+    position:relative;
+    left: -20em;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
   
   .navbar-container {
     display: flex;

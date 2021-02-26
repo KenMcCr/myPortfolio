@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import '../App.css';
-// import Cards from '../components/Cards';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
-import Headshot from '../media/HeadShot.JPG'
+import Headshot from '../media/HeadShot.JPG';
+import Resume from '../media/Resume.png'
 
 
 
@@ -13,9 +13,11 @@ function Home() {
     }, []);
     return (
         <>
+
             <div className='hero-container hero-home '>
                 <Hero />
             </div>
+            <h4>My Resume</h4>
             <div className="home-picture">
                 <img className="profile-picture" src={Headshot}></img>
             </div>
@@ -23,7 +25,14 @@ function Home() {
                 <h3 className="about-title">About Me</h3>
                 <p>Non aut sed ducimus nesciunt atque. Architecto sed quae possimus vel deserunt consequatur. Et ut a. Harum ea mollitia voluptatem rerum nihil non quos optio. Voluptas sint eaque.Non aut sed ducimus nesciunt atque. Architecto sed quae possimus vel deserunt consequatur. Et ut a. Harum ea mollitia voluptatem rerum nihil non quos optio. Voluptas sint eaque</p>
             </div>
-            {/* <Cards /> */}
+
+            <div className="credentials">
+                {/* <h4>My Resume</h4> */}
+                <a href="https://docs.google.com/document/d/1-oMeLmaitESOA9gH08hzzZAc-4XpCQIlWrT1fV6bkz0/edit?usp=sharing">
+                    <img className="resume" src={Resume}></img>
+                </a>
+            </div>
+
             <Footer />
         </>
 

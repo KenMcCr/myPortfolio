@@ -10,11 +10,12 @@ function Navbar() {
 
     return (
         <>
+
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to='/' classname="navbar-home"> Kenneth McCray JR
-                    </Link>
-
+                    <a href="/">
+                        <div className="tohome">Kenneth McCray Jr</div>
+                    </a>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
