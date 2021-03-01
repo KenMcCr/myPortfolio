@@ -17,7 +17,7 @@ function Home() {
             <div className='hero-container hero-home '>
                 <Hero />
             </div>
-            <h4>My Resume</h4>
+
             <div className="home-picture">
                 <img className="profile-picture" src={Headshot}></img>
             </div>
@@ -27,7 +27,6 @@ function Home() {
             </div>
 
             <div className="credentials">
-                {/* <h4>My Resume</h4> */}
                 <a href="https://docs.google.com/document/d/1-oMeLmaitESOA9gH08hzzZAc-4XpCQIlWrT1fV6bkz0/edit?usp=sharing">
                     <img className="resume" src={Resume}></img>
                 </a>
