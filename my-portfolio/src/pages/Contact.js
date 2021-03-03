@@ -29,7 +29,7 @@ function Contact() {
                     <input type="text" id="phonenumber" name="phonenumber" required></input>
 
                     <label for="textarea">Leave A Message:</label>
-                    <textarea id="textarea" name="Comment" rows="10" cols="50">
+                    <textarea id="textarea" name="Comment" rows="10" cols="30">
                     </textarea>
                     <button className="contact-button">Submit</button>
                 </form>

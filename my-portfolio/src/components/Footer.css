@@ -7,8 +7,9 @@
   }
   
   .socialLinks{
+      display: flex;
       padding: 1.5rem;
-      margin-left: 38em;
+      /* margin-left: 38em; */
       color: white;
       z-index: -1;
   }

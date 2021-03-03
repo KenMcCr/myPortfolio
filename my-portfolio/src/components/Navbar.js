@@ -35,6 +35,11 @@ function Navbar() {
                                 Contact
                             </Link>
                         </li>
+                        <li className='nav-item'>
+                            <a href='https://docs.google.com/document/d/1-oMeLmaitESOA9gH08hzzZAc-4XpCQIlWrT1fV6bkz0/edit?usp=sharing' className='nav-links' onClick={closeMobileMenu}>
+                                Resume
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

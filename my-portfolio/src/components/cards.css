@@ -22,6 +22,7 @@
   }
   
   .cards__item {
+    padding: 1em;
     display: flex;
     flex: 1;
     margin: 0 1rem;

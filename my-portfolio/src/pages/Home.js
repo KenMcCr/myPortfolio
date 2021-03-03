@@ -13,24 +13,20 @@ function Home() {
     }, []);
     return (
         <>
+            <body className="home-body">
+                <div className='hero-container hero-home '>
+                    <Hero />
+                </div>
 
-            <div className='hero-container hero-home '>
-                <Hero />
-            </div>
+                <div className="home-picture">
+                    <img className="profile-picture" src={Headshot}></img>
+                </div>
 
-            <div className="home-picture">
-                <img className="profile-picture" src={Headshot}></img>
-            </div>
-            <div className='aboutMe'>
-                <h3 className="about-title">About Me</h3>
-                <p>Non aut sed ducimus nesciunt atque. Architecto sed quae possimus vel deserunt consequatur. Et ut a. Harum ea mollitia voluptatem rerum nihil non quos optio. Voluptas sint eaque.Non aut sed ducimus nesciunt atque. Architecto sed quae possimus vel deserunt consequatur. Et ut a. Harum ea mollitia voluptatem rerum nihil non quos optio. Voluptas sint eaque</p>
-            </div>
-
-            <div className="credentials">
-                <a href="https://docs.google.com/document/d/1-oMeLmaitESOA9gH08hzzZAc-4XpCQIlWrT1fV6bkz0/edit?usp=sharing">
-                    <img className="resume" src={Resume}></img>
-                </a>
-            </div>
+                <div className='aboutMe'>
+                    <h3 className="about-title">Who am I?</h3>
+                    <p>Non aut sed ducimus nesciunt atque. Architecto sed quae possimus vel deserunt consequatur. Et ut a. Harum ea mollitia voluptatem rerum nihil non quos optio. Voluptas sint eaque.Non aut sed ducimus nesciunt atque. Architecto sed quae possimus vel deserunt consequatur. Et ut a. Harum ea mollitia voluptatem rerum nihil non quos optio. Voluptas sint eaque</p>
+                </div>
+            </body>
 
             <Footer />
         </>
