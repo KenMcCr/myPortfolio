@@ -20,7 +20,7 @@ import Ecommerce from '../media/Ecommerce.png';
 function Cards() {
     return (
         <div className="cards">
-            <h1>My Current Work</h1>
+            <h1>My Work</h1>
             <div className="cards__container">
 
                 <ul className="cards__items">
@@ -44,7 +44,7 @@ function Cards() {
                     <Carditem
                         src={VotersRights} text='Voters Rights' path='https://github.com/R2H-Hack-a-Thon-group-2/Voter-Rights.git' label='Voters Rights' />
                     <Carditem
-                        src={Ecommerce} text='Ecommerce' path='https://github.com/KenMcCr/E-Commerce.git' label='Ecommerce' />
+                        src={Ecommerce} text='Ecommerce' path='https://github.com/KenMcCr/reactEcommerce.git' label='Ecommerce' />
 
                 </ul>
             </div>
